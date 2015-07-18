@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #81bd27;
+	}
+button{
+	width: 100px;
+	height: 40px;
+	float: left;
+	}
+
+p{
+	margin-top: 0px;
+	margin-bot: 0px;
+	}
+	
+h1{
+	text-align: center;
+	font-family: "Stencil Std";
+	color: #FFFFFF;
+	position: relative;
+	}
+img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+textarea{
+	resize: none;
+	margin: 0px;
+	width: 300px;
+	}
+	
+#wrapper{
+	width: 400px;
+	height: 400px;
+	background-image: url(../img/crate.gif);
+	margin: auto;
+	position: relative;
+	}
+#gameContainer{
+	width: 316px;
+	height: 316px;
+	margin: auto;
+	padding: 42px;
+	}
+#square1{
+	border-right: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	}
+#square2{
+	border-right: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	}
+#square3{
+	border-bottom: 5px solid #000000;
+	}
+#square4{
+	border-right: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	}
+#square5{
+	border-right: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	}
+#square6{
+	border-bottom: 5px solid #000000;
+	}
+#square7{
+	border-right: 5px solid #000000;
+	}
+#square8{
+	border-right: 5px solid #000000;
+	}
+#square9{
+	}
+
+#scoreBoard{
+	width: 306px;
+	margin: auto;
+	position: relative;
+	}
+
+#xInfo{
+	font-weight: bold;
+	}
+	
+#xWins, #oWins, #ties{
+	float: right;
+	clear: both;
+	}
+
+#btnContainer{
+	width: 204px;
+	margin: auto;
+	position: relative;
+	}
+	
+.blank{
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	float: left;
+	background-color: transparent;
+	}
+.O{
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	float: left;
+	background-image: url(../img/oTile.gif);
+	}
+.X{
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	float: left;
+	background-image: url(../img/xTile.gif);
+	}
+
+
+
+	
