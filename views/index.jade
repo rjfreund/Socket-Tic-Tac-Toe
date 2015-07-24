@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1= title
+  img(src="img/background.gif")
+  div#wrapper
+    div#gameContainer
+      div#square1.blank
+      div#square2.blank
+      div#square3.blank
+      div#square4.blank
+      div#square5.blank
+      div#square6.blank
+      div#square7.blank
+      div#square8.blank
+      div#square9.blank
+  div#scoreBoard
+    p
+      span#xInfo X &lt;-- Your Turn
+      span#xWins Victories: 0
+      span#oInfo O
+      span#oWins Victories: 0
+      span#ties Ties: 0
+    div#btnContainer
+      button#newGameBtn(type="button") New Game
+      button#namesBtn(type="button") Enter Names
